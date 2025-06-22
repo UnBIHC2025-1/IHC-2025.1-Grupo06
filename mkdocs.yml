@@ -1,41 +1,67 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
-
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
+site_name: Guia de Acessibilidade
+repo_name: 2025.1 - IHC - Grupo 6
+repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo06
 
 nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+  - Início: index.md
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  icon: 
+    repo: fontawesome/brands/github
 
-markdown_extensions:
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: false
-      clickable_checkbox: true
+  font:
+    text: Poppins
 
-extra_css:
-  - stylesheets/extra.css
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - navigations.indexes
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight  
+
+  nav_style: dark
+  language: pt
+  repo: fontawesome/brands/github
+
+  palette:
+    - scheme: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Alternar para modo escuro
+      primary: blue
+      accent: indigo
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Alternar para modo claro
+      primary: black
+      accent: light blue
+  
+  markdown_extensions:
+    - pydownx.arithmatex:
+        generic: true
+    - pydownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+      pigments_lang_class: true
+    - pymdownx.keys
+    - pymdownx.smartsymbols
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.betterem
+    - pymdownx.inlinehilite
+    - admonition
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
+    - pymdownx.snippets

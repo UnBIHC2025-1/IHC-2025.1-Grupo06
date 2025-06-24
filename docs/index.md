@@ -8,11 +8,11 @@ O VerificaAAA é um projeto criado a partir do curso de Interação Humano Compu
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
+    <td align="center"><a href="https://github.com/lfelipebessa"><img style="border-radius: 50%;" src="https://github.com/lfelipebessa.png" width="100px;" alt=""/><br /><sub><b>Luiz Bessa</b></sub></a><br />
+    <td align="center"><a href="https://github.com/artrsousa1"><img style="border-radius: 50%;" src="https://github.com/artrsousa1.png" width="100px;" alt=""/><br /><sub><b>Arthur Ribeiro</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/Joaovitor045"><img style="border-radius: 50%;" src="https://github.com/Joaovitor045.png" width="100px;" alt=""/><br /><sub><b>Joâo Vitor</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/AndreMeyerr "><img style="border-radius: 50%;" src="https://github.com/AndreMeyerr.png" width="100px;" alt=""/><br /><sub><b>André Meyer</b></sub></a><br />
+    <td align="center"><a href="https://github.com/matix0 "><img style="border-radius: 50%;" src="https://github.com/matix0.png" width="100px;" alt=""/><br /><sub><b>Mateus Vieira</b></sub></a><br />
   </tr>
 </table>
 

@@ -4,6 +4,7 @@ repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo06
 
 nav:
   - Início: index.md
+  - Guia de Acessibilidade: guia.md
 
 theme:
   name: material
@@ -44,24 +45,25 @@ theme:
         name: Alternar para modo claro
       primary: black
       accent: light blue
-  
-  markdown_extensions:
-    - pydownx.arithmatex:
-        generic: true
-    - pydownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-      pigments_lang_class: true
-    - pymdownx.keys
-    - pymdownx.smartsymbols
-    - pymdownx.caret
-    - pymdownx.mark
-    - pymdownx.tilde
-    - pymdownx.betterem
-    - pymdownx.inlinehilite
-    - admonition
-    - footnotes
-    - pymdownx.details
-    - pymdownx.superfences
-    - attr_list
-    - pymdownx.snippets
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.inlinehilite
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.snippets

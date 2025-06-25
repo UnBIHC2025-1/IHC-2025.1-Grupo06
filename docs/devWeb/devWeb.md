@@ -92,7 +92,7 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 
 ## Dispositivo Móvel e tocável
 - [ ] O site pode ser <b> rotacionado </b> para qualquer orientação.  <a id="TEC15" href="#RP15">[15]</a>
-- [x] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
+- [x] <b> Impedir </b> rolagem horizontal. <a id="TEC16" href="#RP15">[16]</a>
 - [x] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
 - [x] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
 - [ ] <b>Testar navegação com TalkBack e VoiceOver em mobile</b> (NBR 17060: item 20.1)  

@@ -6,22 +6,22 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 ## Metadados e Estrutura
 - [ ] <b>Validar `<meta name="description">` descritiva em cada página</b> (NBR 17060: item 5.1)  
 - [ ] <b>Incluir `<link rel="help" href="acessibilidade.html">` para página de acessibilidade</b> (NBR 17060: item 5.2)  
-- [ ] <b>Verificar atributo `lang` com variação regional (pt-BR)</b> (NBR 17060: item 5.3)  
+- [x] <b>Verificar atributo `lang` com variação regional (pt-BR)</b> (NBR 17060: item 5.3)  
 
 ## Imagens
-- [x] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Adicionar ``` alt="" ``` </b> para imagens decorativas que não tem significado. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Incluir a descrição no ``` alt ```</b> para imagens que contém texto. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b>Assegurar proporção mínima para ampliação sem perda de qualidade</b> (NBR 17060: item 6.1)  
-- [ ] <b>Limitar o texto alternativo a, no máximo, 125 caracteres</b> (NBR 17060: item 6.2)  
+- [x] <b>Assegurar proporção mínima para ampliação sem perda de qualidade</b> (NBR 17060: item 6.1)  
+- [x] <b>Limitar o texto alternativo a, no máximo, 125 caracteres</b> (NBR 17060: item 6.2)  
 
 ## Vídeos
-- [ ] <b> Adicionar legendas</b> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a>
+- [x] <b> Adicionar legendas</b> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a>
 - [x] <b> Evitar conteúdo com <i>flashes</i> (gatilhos para convulsões)</b> ou manter abaixo dos limites. <a id="TEC3" href="#RP3">[3]</a>
-- [ ] <b>Fornecer controle de velocidade e avanço/retrocesso</b> (NBR 17060: item 12.3)  
-- [ ] <b>Oferecer legendas em português brasileiro e local</b> (NBR 17060: item 12.4) 
+- [x] <b>Fornecer controle de velocidade e avanço/retrocesso</b> (NBR 17060: item 12.3)  
+- [x] <b>Oferecer legendas em português brasileiro e local</b> (NBR 17060: item 12.4) 
 - [ ] <b>Indicar links já visitados com contraste distinto</b> (NBR 17060: item 7.1)  
-- [ ] <b>Validar acessibilidade de menus dropdown via ARIA e teclado</b> (NBR 17060: item 7.2) 
+- [x] <b>Validar acessibilidade de menus dropdown via ARIA e teclado</b> (NBR 17060: item 7.2) 
 
 ## Controles
 - [x] <b> Adicionar ``` href ```</b> para links. <a id="TEC4" href="#RP4">[4]</a>
@@ -29,14 +29,14 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [x] <b> Adicionar estados de foco</b> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a>
 - [x] <b> Adicionar ```type="button"```</b> nos botões. <a id="TEC4" href="#RP4">[4]</a>
 - [x] <b> Adicionar skip-link </b> (link para pular) para o conteúdo principal. <a id="TEC7" href="#RP7">[7]</a>
-- [x] <b> Identifique e comunique </b> links que abrem em uma nova guia ou janela. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] <b> Identifique e comunique </b> links que abrem em uma nova guia ou janela. <a id="TEC8" href="#RP8">[8]</a>
 
 ## Formulário
-- [x] <b> Adicionar ``` label ```</b> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a>
+- [ ] <b> Adicionar ``` label ```</b> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Adicionar ``` <fieldset> ``` e ``` <legend> ```</b> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar ``` autocomplete ```</b> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a>
+- [ ] <b> Adicionar ``` autocomplete ```</b> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a>
 - [ ] <b> Exibir ``` errors ``` </b> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a>
-- [x] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
+- [ ] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
 - [ ] <b> Exibir mensagens de erro e sucesso</b> não só visualmente. <a id="TEC5" href="#RP5">[5]</a>
 - [ ] <b>Permitir preenchimento por comando de voz (speech recognition)</b> (NBR 17060: item 15.2)  
 - [ ] <b>Exibir exemplos de formato e máscara de entrada via `aria-describedby`</b> (NBR 17060: item 15.3)  
@@ -44,7 +44,7 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 
 ## Mídia
 - [x] <b> Impedir ``` autoplay ```</b> para vídeos e audios. <a id="TEC12" href="#RP12">[12]</a>
-- [ ] <b> Adicionar ``` type ```</b> para botões e entradas. <a id="TEC4" href="#RP4">[4]</a>
+- [x] <b> Adicionar ``` type ```</b> para botões e entradas. <a id="TEC4" href="#RP4">[4]</a>
 - [x] <b> Adicionar pausa </b> para todas as mídias. <a id="TEC13" href="#RP13">[13]</a>
 - [x] <b> Adicionar transcrição </b> para audios. <a id="TEC1" href="#RP1">[1]</a>
 
@@ -61,51 +61,51 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [x] <b>Alturas </b> das fontes <b> não é fixa </b>. 
 
 ## Teclado
-- [ ] <b> Funcionalidades </b> da página web estão <b> disponíveis por teclado </b>. 
+- [x] <b> Funcionalidades </b> da página web estão <b> disponíveis por teclado </b>. 
 - [ ] Quando se tem o <b>mouseover é permitido o uso de teclado </b>. 
-- [ ] <b>Foco visível</b> remova elementos focalizáveis ​​invisíveis. 
-- [ ] Adicione o <b> ``` .hover, .focus { } ```</b>  para tornar o foco visível. 
-- [ ] Permite/visa o uso de <b> Atalhos de teclado </b> como o ```TAB```. 
-- [ ] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>. 
+- [x] <b>Foco visível</b> remova elementos focalizáveis ​​invisíveis. 
+- [x] Adicione o <b> ``` .hover, .focus { } ```</b>  para tornar o foco visível. 
+- [x] Permite/visa o uso de <b> Atalhos de teclado </b> como o ```TAB```. 
+- [x] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>. 
 
 ## Título
-- [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
-- [ ] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
-- [ ] <b>Não pular níveis lógicos</b>.
-- [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b>Evitar cabeçalhos vazios e garantir texto significativo em `<h*>`</b> (NBR 17060: item 4.5)  
-- [ ] <b>Usar `aria-level` em títulos dinâmicos (SPAs)</b> (NBR 17060: item 4.6)  
+- [x] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
+- [x] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
+- [x] <b>Não pular níveis lógicos</b>.
+- [x] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
+- [x] <b>Evitar cabeçalhos vazios e garantir texto significativo em `<h*>`</b> (NBR 17060: item 4.5)  
+- [x] <b>Usar `aria-level` em títulos dinâmicos (SPAs)</b> (NBR 17060: item 4.6)  
 
 ## Tabela
 - [ ] <b> Use o ``` table ``` </b> para elementos em formato de tabela.  <a id="TEC4" href="#RP4">[4]</a>
-- [ ] Insira cabeçalhos para explicar os dados, <b>use ``` th ``` com  ``` scope ``` correto</b>.<a id="TEC15" href="#RP15">[15]</a>
+- [x] Insira cabeçalhos para explicar os dados, <b>use ``` th ``` com  ``` scope ``` correto</b>.<a id="TEC15" href="#RP15">[15]</a>
 - [ ] <b> Use o ``` captione ``` </b> lemento para fornecer um título para a tabela.<a id="TEC17" href="#RP17">[17]</a>
 - [ ] <b>Adicionar `summary` ou descrição longa para tabelas complexas</b> (NBR 17060: item 15.4)  
 
 ## Modais
-- [ ] Deve ser <b> fácil fechar </b>.<a id="TEC19" href="#RP19">[19]</a>
+- [x] Deve ser <b> fácil fechar </b>.<a id="TEC19" href="#RP19">[19]</a>
 - [ ] Permiti o <b> uso da tecla escape ``` ESC ```</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] A interação é  uma <b> tarefa simples</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Evita </b> modais em <b> tela cheia </b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Não abrir um modal a partir de outro modal </b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b>Aprisionar o foco dentro do modal até seu fechamento</b> (NBR 17060: item 19.3)  
+- [x] A interação é  uma <b> tarefa simples</b>.</b><a id="TEC19" href="#RP19">[19]</a>
+- [x] <b> Evita </b> modais em <b> tela cheia </b>.</b><a id="TEC19" href="#RP19">[19]</a>
+- [x] <b> Não abrir um modal a partir de outro modal </b>.</b><a id="TEC19" href="#RP19">[19]</a>
+- [x] <b>Aprisionar o foco dentro do modal até seu fechamento</b> (NBR 17060: item 19.3)  
 
 ## Dispositivo Móvel e tocável
 - [ ] O site pode ser <b> rotacionado </b> para qualquer orientação.  <a id="TEC15" href="#RP15">[15]</a>
-- [ ] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
-- [ ] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
-- [ ] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
+- [x] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
+- [x] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
+- [x] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
 - [ ] <b>Testar navegação com TalkBack e VoiceOver em mobile</b> (NBR 17060: item 20.1)  
 
 ## Ferramentas e extras
-- [ ] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
-- [ ] Usar <b> Breadcrumbs </b> informando a localização atual nas páginas.
-- [ ] Colocar página ou <b> área de esclarecimento de dúvidas e dicas de acessibilidade </b>.
-- [ ] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
+- [x] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
+- [x] Usar <b> Breadcrumbs </b> informando a localização atual nas páginas.
+- [x] Colocar página ou <b> área de esclarecimento de dúvidas e dicas de acessibilidade </b>.
+- [x] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
 - [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
-- [ ] Incluir um <b> campo de busca </b>.
-- [ ] <b>Executar verificação com o Validador ABNT (e-MAG Checker)</b> (NBR 17060: item 21)  
-- [ ] <b>Rodar AChecker no modo “WCAG 2.2 & ABNT”</b> (NBR 17060: item 22)  
+- [x] Incluir um <b> campo de busca </b>.
+- [x] <b>Executar verificação com o Validador ABNT (e-MAG Checker)</b> (NBR 17060: item 21)  
+- [x] <b>Rodar AChecker no modo “WCAG 2.2 & ABNT”</b> (NBR 17060: item 22)  
 
 ## Referência Bibliográfica
 

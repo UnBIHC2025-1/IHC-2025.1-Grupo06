@@ -1,50 +1,68 @@
+# mkdocs.yml
+
 site_name: Guia de Acessibilidade
-repo_name: 2025.1 - IHC - Grupo 6
+site_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo06
 repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo06
+repo_name: 2025.1 - IHC - Grupo 6
+use_directory_urls: False
 
 nav:
   - Início: index.md
-  - Guia de Acessibilidade: guia.md
+
+  - Desenvolvimento Web:
+    - Conteúdo Não Textual: devWeb/devWeb.md
+
+  - Design:
+    - Design: design/design.md
+
+  - Geração de Conteúdo:
+    - Conteúdo: geracaoConteudo/conteudo.md
+
+  - Gestão de Projetos:
+    - Gestão de Projetos: gestaoProjeto/gestaoProjeto.md
+
+  - Ferramentas:
+    - Ferramentas de Acessibilidade: tools/ferramentas.md
 
 theme:
   name: material
-  icon: 
-    repo: fontawesome/brands/github
+  logo: imagens/logo-verificaaa.png
+  favicon: imagens/logo-verificaaa.png
 
   font:
     text: Poppins
 
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.path
-    - navigation.prune
-    - navigation.top
-    - navigation.footer
-    - navigations.indexes
-    - content.code.copy
-    - toc.integrate
-    - search.suggest
-    - search.highlight  
-
-  nav_style: dark
-  language: pt
-  repo: fontawesome/brands/github
+  icon:
+    repo: fontawesome/brands/github
 
   palette:
-    - scheme: light blue
+    - scheme: light
+      primary: blue
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Alternar para modo escuro
-      primary: blue
-      accent: indigo
-
     - scheme: slate
+      primary: black
+      accent: light blue
       toggle:
         icon: material/toggle-switch
         name: Alternar para modo claro
-      primary: black
-      accent: light blue
+
+  nav_style: dark
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - navigation.prune
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - navigations.indexes
 
 markdown_extensions:
   - pymdownx.tasklist:
@@ -67,3 +85,7 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - pymdownx.snippets
+  - pymdownx.magiclink
+
+extra_css:
+  - stylesheets/extra.css

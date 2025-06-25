@@ -3,14 +3,25 @@
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
 testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
 
+## Metadados e Estrutura
+- [ ] <b>Validar `<meta name="description">` descritiva em cada página</b> (NBR 17060: item 5.1)  
+- [ ] <b>Incluir `<link rel="help" href="acessibilidade.html">` para página de acessibilidade</b> (NBR 17060: item 5.2)  
+- [ ] <b>Verificar atributo `lang` com variação regional (pt-BR)</b> (NBR 17060: item 5.3)  
+
 ## Imagens
 - [x] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Adicionar ``` alt="" ``` </b> para imagens decorativas que não tem significado. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Incluir a descrição no ``` alt ```</b> para imagens que contém texto. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] <b>Assegurar proporção mínima para ampliação sem perda de qualidade</b> (NBR 17060: item 6.1)  
+- [ ] <b>Limitar o texto alternativo a, no máximo, 125 caracteres</b> (NBR 17060: item 6.2)  
 
 ## Vídeos
 - [ ] <b> Adicionar legendas</b> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a>
 - [x] <b> Evitar conteúdo com <i>flashes</i> (gatilhos para convulsões)</b> ou manter abaixo dos limites. <a id="TEC3" href="#RP3">[3]</a>
+- [ ] <b>Fornecer controle de velocidade e avanço/retrocesso</b> (NBR 17060: item 12.3)  
+- [ ] <b>Oferecer legendas em português brasileiro e local</b> (NBR 17060: item 12.4) 
+- [ ] <b>Indicar links já visitados com contraste distinto</b> (NBR 17060: item 7.1)  
+- [ ] <b>Validar acessibilidade de menus dropdown via ARIA e teclado</b> (NBR 17060: item 7.2) 
 
 ## Controles
 - [x] <b> Adicionar ``` href ```</b> para links. <a id="TEC4" href="#RP4">[4]</a>
@@ -22,11 +33,14 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 
 ## Formulário
 - [x] <b> Adicionar ``` label ```</b> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Adicionar ``` <fildset> ``` e ``` <legend> ```</b> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a>
+- [ ] <b> Adicionar ``` <fieldset> ``` e ``` <legend> ```</b> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a>
 - [x] <b> Adicionar ``` autocomplete ```</b> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a>
 - [ ] <b> Exibir ``` errors ``` </b> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a>
 - [x] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
 - [ ] <b> Exibir mensagens de erro e sucesso</b> não só visualmente. <a id="TEC5" href="#RP5">[5]</a>
+- [ ] <b>Permitir preenchimento por comando de voz (speech recognition)</b> (NBR 17060: item 15.2)  
+- [ ] <b>Exibir exemplos de formato e máscara de entrada via `aria-describedby`</b> (NBR 17060: item 15.3)  
+
 
 ## Mídia
 - [x] <b> Impedir ``` autoplay ```</b> para vídeos e audios. <a id="TEC12" href="#RP12">[12]</a>
@@ -59,11 +73,14 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
 - [ ] <b>Não pular níveis lógicos</b>.
 - [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
+- [ ] <b>Evitar cabeçalhos vazios e garantir texto significativo em `<h*>`</b> (NBR 17060: item 4.5)  
+- [ ] <b>Usar `aria-level` em títulos dinâmicos (SPAs)</b> (NBR 17060: item 4.6)  
 
 ## Tabela
 - [ ] <b> Use o ``` table ``` </b> para elementos em formato de tabela.  <a id="TEC4" href="#RP4">[4]</a>
 - [ ] Insira cabeçalhos para explicar os dados, <b>use ``` th ``` com  ``` scope ``` correto</b>.<a id="TEC15" href="#RP15">[15]</a>
 - [ ] <b> Use o ``` captione ``` </b> lemento para fornecer um título para a tabela.<a id="TEC17" href="#RP17">[17]</a>
+- [ ] <b>Adicionar `summary` ou descrição longa para tabelas complexas</b> (NBR 17060: item 15.4)  
 
 ## Modais
 - [ ] Deve ser <b> fácil fechar </b>.<a id="TEC19" href="#RP19">[19]</a>
@@ -71,12 +88,14 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] A interação é  uma <b> tarefa simples</b>.</b><a id="TEC19" href="#RP19">[19]</a>
 - [ ] <b> Evita </b> modais em <b> tela cheia </b>.</b><a id="TEC19" href="#RP19">[19]</a>
 - [ ] <b> Não abrir um modal a partir de outro modal </b>.</b><a id="TEC19" href="#RP19">[19]</a>
+- [ ] <b>Aprisionar o foco dentro do modal até seu fechamento</b> (NBR 17060: item 19.3)  
 
 ## Dispositivo Móvel e tocável
 - [ ] O site pode ser <b> rotacionado </b> para qualquer orientação.  <a id="TEC15" href="#RP15">[15]</a>
 - [ ] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
 - [ ] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
 - [ ] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
+- [ ] <b>Testar navegação com TalkBack e VoiceOver em mobile</b> (NBR 17060: item 20.1)  
 
 ## Ferramentas e extras
 - [ ] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
@@ -85,6 +104,8 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
 - [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
 - [ ] Incluir um <b> campo de busca </b>.
+- [ ] <b>Executar verificação com o Validador ABNT (e-MAG Checker)</b> (NBR 17060: item 21)  
+- [ ] <b>Rodar AChecker no modo “WCAG 2.2 & ABNT”</b> (NBR 17060: item 22)  
 
 ## Referência Bibliográfica
 
@@ -125,6 +146,22 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 > <a id="RP18" href="#TEC18">18.</a> WCAG 2.2 Understanding Docs. SC 2.5.5 Target Size (Enhanced) (Level AAA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html). Acesso em: 9 Mai. 2024.
 
 > <a id="RP19" href="#TEC19">19.</a> GUIA DE BOAS PRÁTICAS PARA ACESSIBILIDADE DIGITAL. Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html](https://www.w3.org/WAI/WCAG22/Understandin/target-size-enhanced.html). Acesso em: 9 Mai. 2024.
+
+> <a id="RP1" href="#NBR5.1">1.</a> ABNT NBR 17060:2022, item 5.1 – Definição de meta description descritiva em cada página. Disponível em: “Desenvolvida com coordenação do Ceweb.br, nova norma da ABNT estabelece requisitos para melhorar a acessibilidade de sites” :contentReference[oaicite:0]{index=0}
+
+> <a id="RP2" href="#NBR5.2">2.</a> ABNT NBR 17060:2022, item 5.2 – Obrigatoriedade de link de ajuda/acessibilidade (“<link rel=\"help\">”). Normas da ABNT sobre acessibilidade em conteúdo e aplicações web. :contentReference[oaicite:1]{index=1}
+
+> <a id="RP3" href="#NBR5.3">3.</a> ABNT NBR 17060:2022, item 5.3 – Atributo `lang="pt-BR"` com variação regional. “Norma da ABNT sobre acessibilidade para dispositivos móveis torna a navegação mais inclusiva” :contentReference[oaicite:2]{index=2}
+
+> <a id="RP4" href="#WCAG111">4.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A) – Alternativas textuais para conteúdo não textual. Disponível em: W3C :contentReference[oaicite:3]{index=3}
+
+> <a id="RP5" href="#WCAG122">5.</a> WCAG 2.2 Understanding Docs. SC 1.2.2 Captions (Prerecorded) (Level A) – Legendas sincronizadas em vídeo. Disponível em: W3C :contentReference[oaicite:4]{index=4}
+
+> <a id="RP6" href="#WCAG247">6.</a> WCAG 2.2 Understanding Docs. SC 2.4.7 Focus Visible (Level AA) – Indicador de foco visível em todos os controles interativos. Disponível em: W3C :contentReference[oaicite:5]{index=5}
+
+> <a id="RP7" href="#WCAG211">7.</a> WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A) – Navegação completa via teclado. Disponível em: W3C :contentReference[oaicite:6]{index=6}
+
+> <a id="RP8" href="#NBR6.1">8.</a> ABNT NBR 17060:2022, item 6.1 – Proporção mínima para ampliação de imagens sem perda de qualidade. Disponível em: Normas.com.br :contentReference[oaicite:7]{index=7}
 
 ## Bibliografia
 

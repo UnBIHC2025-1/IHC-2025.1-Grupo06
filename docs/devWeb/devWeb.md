@@ -72,7 +72,7 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [x] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
 - [x] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
 - [x] <b>Não pular níveis lógicos</b>.
-- [x] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
+- [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
 - [x] <b>Evitar cabeçalhos vazios e garantir texto significativo em `<h*>`</b> (NBR 17060: item 4.5)  
 - [x] <b>Usar `aria-level` em títulos dinâmicos (SPAs)</b> (NBR 17060: item 4.6)  
 

@@ -23,9 +23,7 @@ nav:
 
   - Ferramentas:
     - Ferramentas de Acessibilidade: tools/ferramentas.md
-  
-  - Guia de Acessibilidade:
-    - Guia de Acessibilidade: guia.md
+
 
 theme:
   name: material

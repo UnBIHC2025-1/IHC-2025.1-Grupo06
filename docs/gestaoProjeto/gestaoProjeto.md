@@ -38,7 +38,7 @@ Em seu projeto, a equipe está consciente de...
 - [ ] Grupos mais comuns de tipos de deficiência.
 - [ ] Quanto custa a acessibilidade?
 - [ ] Quanto tempo a mais o projeto precisará para implementar acessibilidade?
-- [ ] Quantas pessoas com deficiência vão usar meu aplicativo ou acessar meu sítio de Internet?
+- [ ] Quantas pessoas com deficiência vão usar meu aplicativo ou acessar meu site de Internet?
 - [ ] Pessoas cegas compram online?
 - [ ] Pessoas tetraplégicas usam smartphone?
 - [ ] Legislação: A Convenção sobre os Direitos das Pessoas com Deficiência Comentada.

@@ -14,3 +14,4 @@ Este repositório tem como propósito fornecer um checklist prático de acessibi
 O VerificaAAA é nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
 
 ## Contribuidores
+

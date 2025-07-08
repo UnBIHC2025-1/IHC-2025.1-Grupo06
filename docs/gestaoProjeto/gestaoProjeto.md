@@ -15,14 +15,6 @@ Em seu projeto, foram elaboradas personas para...
 - [ ] <b> Possíveis limitações decorrentes do envelhecimento </b> (que podem ser de um ou mais grupos de deficiências)
 - [ ] <b> Pessoas com analfabetismo </b> (analfabetismo digital e funcional níveis 1, 2 e 3)
 - [ ] <b>Elaborar personas com perfis diversos de deficiência</b> <a id="TEC41" href="#RP41">[41]</a>  
-  - Pessoas com deficiência visual  
-  - Pessoas com deficiência física  
-  - Pessoas com deficiência auditiva  
-  - Pessoas com deficiência na fala  
-  - Pessoas neurodiversas  
-  - Pessoas com múltiplas deficiências  
-  - Possíveis limitações decorrentes do envelhecimento  
-  - Pessoas com analfabetismo 
 
 # Conscientização
 
